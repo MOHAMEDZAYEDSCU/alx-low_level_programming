@@ -1,2 +1,10 @@
 #!/bin/bash
-gcc -c $CFILE -o echo $CFILE | cut -d. -f1.o
+
+# Assuming $CFILE contains the C source file name
+# For example: CFILE="main.c"
+
+# Extract the base name of the C file without the extension
+BASENAME=$(echo $CFILE | cut -d. -f1)
+
+# Compile the C source file and generate the object file
+gcc -c $CFILE -o $BASENAME.o
