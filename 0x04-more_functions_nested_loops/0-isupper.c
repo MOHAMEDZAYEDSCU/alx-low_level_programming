@@ -1,23 +1,17 @@
-/*#include "main.h"*/
-#include <stdio.h>
-#include <ctype.h>
+#include "main.h"
 
 /**
- * main - check the code.
+ * _isupper - check character capital or small
  *
- * Description: check if upper or lower
+ * @c: vaiable character
  *
- * Return: 0 Always
+ * Return: 1 if upper, 0 if not
  */
 
-int main(void)
+int _isupper(int c)
 {
-	char c;
-
-	c = 'A';
-	printf("%c: %d\n", c, (isupper(c) - 255));
-	c = 'a';
-	printf("%c: %d\n", c, isupper(c));
-
-	return (0);
+	if (c >= 65 && c <= 90)
+		return (1);
+	else
+		return (0);
 }
