@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_numbers - to print number from 0 to 9
+ * print_most_numbers - to print number from 0 to 9
  * Description: no thing elseto write
  * Return: no return for void function
  */
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int i;
 
