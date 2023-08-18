@@ -3,7 +3,7 @@
 /**
  * print_numbers - to print number from 0 to 9
  * Description: no thing elseto write
- * Return: 0 Always
+ * Return: no return for void function
  */
 
 void print_numbers(void)
@@ -12,7 +12,7 @@ void print_numbers(void)
 
 	for (i = 0 ; i <= 9 ; i++)
 		putchar(i);
+
 	putchar('\n');
 
-	return (0);
 }
