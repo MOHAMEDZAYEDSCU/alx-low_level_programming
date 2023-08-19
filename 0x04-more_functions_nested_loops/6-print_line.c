@@ -20,7 +20,7 @@ void print_line(int n)
 	else
 	for (i = 0 ; i < n ; i++)
 	putchar('_');
-	
+
 	if (x)
 	putchar('\n');
 }
