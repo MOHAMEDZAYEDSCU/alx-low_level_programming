@@ -9,12 +9,9 @@
 
 void print_line(int n)
 {
-	int x, i;
+	int i;
 
-	scanf("%i", &x);
-	if (x <= 0)
-		putchar('\n');
-	else
-	for (i = 0 ; i < x ; i++)
-	putchar('_')
+	for (i = 0 ; i < n ; i++)
+	putchar('_');
+	putchar('_');
 }
