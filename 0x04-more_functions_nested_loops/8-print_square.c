@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * main - check the code
- *@n: for numbers of lines and #
+ * print_square - this is function
+ * Description: for print square of #
+ * @size: for the size of square
  * Return: no retrun for void function
+ *
  */
 
 void print_square(int size)
