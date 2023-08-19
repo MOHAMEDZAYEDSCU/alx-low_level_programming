@@ -12,16 +12,23 @@ void print_triangle(int size)
 {
 	int lines, spaces, simpol;
 
-	for (lines = 1 ; lines <= size ; lines++)
+	if (size < 1)
 	{
-		for (spaces = size - lines ; spaces >= 1 ; spaces--)
+		printf("\n");
+	}
+	else
+	{
+		for (lines = 1 ; lines <= size ; lines++)
 		{
-			putchar(' ');
+			for (spaces = size - lines ; spaces >= 1 ; spaces--)
+			{
+				putchar(' ');
+			}
+			for (simpol = 0 ; simpol < lines ; simpol++)
+			{
+				putchar('#');
+			}
+				putchar('\n');
 		}
-		for (simpol = 0 ; simpol < lines ; simpol++)
-		{
-			putchar('#');
-		}
-		putchar('\n');
 	}
 }
