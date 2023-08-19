@@ -5,17 +5,15 @@
  * Description: program to print '_' diagonlaly
  * @n: number of _ you want to print
  * Return: no return for htis function.
- *
  */
 
 void print_diagonal(int n)
 {
-	int i, j, x = 1;
+	int i, j;
 
 	if (n < 1)
 	{
 		putchar('\n');
-		x = 0;
 	}
 	else
 	{
