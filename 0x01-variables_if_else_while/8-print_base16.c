@@ -10,11 +10,18 @@
 
 int main(void)
 {
-	int x = 26, i;
+	int x = 15, i;
 
-	for (i = 0 ; i < x ; i++)
+	for (i = 0 ; i <= x ; i++)
 	{
-		putchar((97 + i));
+		if (i < 10)
+		{	
+			putchar(('0' + i));
+		}
+		else
+		{
+			putchar((87 + i));
+		}
 	}
 	putchar('\n');
 
