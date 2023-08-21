@@ -8,21 +8,35 @@
 
 int main(void)
 {
-	int r;
+int r;
 
-	r = _isalpha('H');
-	putchar(r + '0');
+r = print_sign(98);
+_putchar(',');
+_putchar(' ');
+_putchar(r + '0');
+_putchar('\n');
 
-	r = _isalpha('o');
-	putchar(r + '0');
+r = print_sign(0);
+_putchar(',');
+_putchar(' ');
+_putchar(r + '0');
+_putchar('\n');
 
-	r = _isalpha(108);
-	putchar(r + '0');
+r = print_sign(0xff);
+_putchar(',');
+_putchar(' ');
+_putchar(r + '0');
+_putchar('\n');
 
-	r = _isalpha(108);
-	putchar(r + '0');
+r = print_sign(-1);
+_putchar(',');
+_putchar(' ');
+_putchar(r + '0');
+_putchar('\n');
 
-	putchar('\n');
-
-	return (0);
+return (0);
 }
+
+
+
+
