@@ -13,7 +13,7 @@
 
 void _puts(char *s)
 {
-	unsigned int j, len = strlen(s);
+	int j, len = strlen(s);
 
 	for (j = 0 ; j < len ; j++)
 	{
