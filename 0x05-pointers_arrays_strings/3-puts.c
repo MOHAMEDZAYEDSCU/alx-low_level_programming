@@ -1,5 +1,5 @@
 #include "main.h"
-size_t strlen(const char *str);
+/*size_t strlen(const char *str);*/
 
 /**
  * _puts - this is main funciton
@@ -13,10 +13,9 @@ size_t strlen(const char *str);
 
 void _puts(char *s)
 {
-	long unsigned int j;
-	size_t length = strlen(s);
+	int j;
 
-	for (j = 0 ; j < length ; j++)
+	for (j = 0 ; j < (int)strlen(s) ; j++)
 	{
 		printf("%c", *s);
 		s++;
