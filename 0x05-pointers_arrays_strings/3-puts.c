@@ -13,9 +13,9 @@
 
 void _puts(char *s)
 {
-	int j;
+	unsigned int j, len = strlen(s);
 
-	for (j = 0 ; j < (int)strlen(s) ; j++)
+	for (j = 0 ; j < len ; j++)
 	{
 		printf("%c", *s);
 		s++;
