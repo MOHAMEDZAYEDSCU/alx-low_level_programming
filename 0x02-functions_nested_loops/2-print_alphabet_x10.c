@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_alphabet - this is the only funciton
+ * print_alphabet_x10 - this is the only funciton
  *
  * Description: printing lowercase characters
  *
  * Return: no return for void funciton
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int i, j;
 
