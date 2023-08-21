@@ -7,16 +7,22 @@
  *
  * @n: an integer added
  *
- * Return: no return for void funciton
+ * Return: value of last digit
  */
 
 int print_last_digit(int n)
 {
-	if (n < 0)
-	{
-		n = -n;
-	}
-	printf("%d", n % 10);
+	int x;
 
-	return (n % 10);
+	if (n < 0)
+		n = -n;
+
+	x = n % 10 ;
+
+	if (x < 0)
+		x = -x;
+	
+	_putchar(x + '0');
+
+	return (x);
 }
