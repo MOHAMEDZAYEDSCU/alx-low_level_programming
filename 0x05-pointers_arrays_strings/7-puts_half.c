@@ -12,11 +12,11 @@
 
 void puts2(char *s)
 {
-	int j;
+	int j, len = strlen(s);
 
-	for (j = 0 ; s[j] != '\0'  ; j++)
+	for (j = 0 ; j < len ; j++)
 	{
-		if (j % 2 == 0)
+		if (s[j] % 2 == 0)
 			putchar(s[j]);
 
 	}
