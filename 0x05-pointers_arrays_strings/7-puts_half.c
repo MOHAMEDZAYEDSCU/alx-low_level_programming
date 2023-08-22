@@ -1,24 +1,39 @@
 #include "main.h"
 
 /**
- * puts2 - this is main funciton
+ * puts_half - this is main funciton
  *
- * Description: reverse a specific sentence
+ * Description: print the half of the string
  *
- * @s: character for test the funciton
+ * @str: character for test the funciton
  *
  * Return: no return for void funciton
  */
 
-void puts2(char *s)
+void puts_half(char *str)
 {
-	int j, len = strlen(s);
+	int j = 0;
+	int k;
 
-	for (j = 0 ; j < len ; j++)
+	while (str[j] != '\0')
 	{
-		if (s[j] % 2 == 0)
-			putchar(s[j]);
-
+		j++;
 	}
-	putchar('\n');
+
+	if (j % 2 == 1)
+	{
+		k = (j - 1) / 2;
+		k += 1;
+	}
+	else
+	{
+		k = j / 2;
+	}
+
+	for (; k < j; k++)
+	{
+		_putchar(str[k]);
+	}
+
+	_putchar('\n');
 }
