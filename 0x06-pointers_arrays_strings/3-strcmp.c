@@ -26,17 +26,17 @@ int _strcmp(char *s1, char *s2)
 	for (i = 0; i < len1; i++)
 	{
 		if (s1[i] < s2[i])
-			return (-15);
+			return ((s1[i] - s2[i]));
 
 		else if (s1[i] > s2[i])
-			return (15);
+			return (s1[i] - s2[i]);
 	}
 
 	if (flag == 0 && len1 != len2)
-		return (-15);
+		return (s1[i] - s2[i]);
 
 	else if (flag == 1 && len1 != len2)
-		return (15);
+		return (s1[i] - s2[i]);
 
 	else
 		return (0);
