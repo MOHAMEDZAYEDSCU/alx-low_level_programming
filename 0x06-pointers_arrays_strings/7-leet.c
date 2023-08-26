@@ -12,17 +12,19 @@
 char *leet(char *c)
 {
 	char *ptr = c, test[] = "AaeEtToOlL", num[] = "4433770011";
-	int i = 0;
 
 	while (*ptr != '\0')
 	{
+		int i = 0;
+
 		while (test[i] != '\0')
 		{
 			if (test[i] == *ptr)
 				*ptr = num[i];
+
 			i++;
-			ptr++;
 		}
+		ptr++;
 	}
 
 	return (c);
