@@ -15,7 +15,7 @@ char *string_toupper(char *c)
 
 	if (c == NULL)
 	{
-		return NULL;
+		return (NULL);
 	}
 
 	while (*ptr != '\0')
