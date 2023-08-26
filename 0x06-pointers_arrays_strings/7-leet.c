@@ -11,26 +11,19 @@
 
 char *leet(char *c)
 {
-	char *ptr = c;
+	char *ptr = c, test[] = "AaeEtToOlL", num[] = "4433770011";
+	int i = 0;
 
 	while (*ptr != '\0')
 	{
-			if (*ptr == 'a' || *ptr == 'A')
-				*ptr = '4';
-
-			else if (*ptr == 'e' || *ptr == 'E')
-				*ptr = '3';
-
-			else if (*ptr == 't' || *ptr == 'T')
-				*ptr = '7';
-
-			else if (*ptr == 'o' || *ptr == 'O')
-				*ptr = '0';
-
-			else if (*ptr == 'l' || *ptr == 'L')
-				*ptr = '1';
-
-		ptr++;
+		while (test[i] != '\0')
+		{
+			if (test[i] == *ptr)
+				*ptr = num[i];
+			i++;
+			ptr++;
+		}
 	}
+
 	return (c);
 }
