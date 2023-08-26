@@ -11,14 +11,17 @@
 
 char *string_toupper(char *c)
 {
-	int i;
-	/*char tmp[99];*/
+	char *ptr = c;
 
-	while (c[i] != '\0')
+	if (c == NULL)
 	{
-		c[i] = toupper(c[i]);
-		i++;
+		return NULL;
+	}
 
+	while (*ptr != '\0')
+	{
+		*ptr = toupper(*ptr);
+		ptr++;
 	}
 
 	return (c);
