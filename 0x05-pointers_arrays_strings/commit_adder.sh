@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for ((i=1; i<=99; i++))
+for ((i=1; i<=6; i++))
 do
     echo "Performing iteration $i"
     
@@ -11,7 +11,7 @@ do
     git push
     rm newfile_$i.txt
 
-    sleep 5
+    sleep 2
 done
 
   rm newfile_$i.txt
