@@ -11,18 +11,14 @@
 
 char *_strchr(char *s, char c)
 {
-	while (*s != '\0')
+	char *ptr = s;
+
+	while (*ptr != '\0')
 	{
-		if (*s == c)
-		{
-			while (*s != '\0')
-			{
-				putchar("%c", *s);
-				s++;
-			}
-		}
-		s++
+		if (*ptr == c)
+			return (ptr);
+		ptr++
 	}
 
-	return (NULL);
+	return ('\0');
 }
