@@ -5,8 +5,9 @@
  *
  * @s: the first address of the array
  * @n: the number of elements
+ * @b: the element of index i
  *
- * Retrun: pointer to an array
+ * Return: pointer to an array &S
  */
 
 char *_memset(char *s, char b, unsigned int n)
