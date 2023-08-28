@@ -3,9 +3,9 @@
 /**
  * *_memcpy - funciton to return the address of an array
  *
- * @s: the first address of the array
+ * @dest: the coppied array
+ * @src: the source array
  * @n: the number of elements
- * @b: the element of index i
  *
  * Return: pointer to an array &S
  */
