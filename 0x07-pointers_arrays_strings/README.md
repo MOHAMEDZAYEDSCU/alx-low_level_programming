@@ -1,1 +1,1 @@
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thesouthafrican.com%2Fnews%2Falx-earn-your-software-engineering-certification-and-equip-yourself-for-a-world-of-opportunity%2F&psig=AOvVaw0oyscZLd7nQJxPGPbJUrI0&ust=1693393927030000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCICLwo3egYEDFQAAAAAdAAAAABAg" alt="Sample Image">
+<img src="https://www.thesouthafrican.com/wp-content/uploads/2022/12/ALX-800x529.jpg" alt="Sample Image">
