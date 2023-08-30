@@ -1,40 +1,44 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - funciton to print strings
+ * is_prime_number - funciton to print strings
  *
  * Description: no more words to say
  * @n: the reference number.
  *
  * Return: no return for void function.
  */
+int prim(int n, int i);
 
-int _sqrt_recursion(int n)
+int is_prime_number(int n)
 {
-	return (_sqrt_test(n, 1));
+	if (n == 2)
+		return (1);
+
+	return (prim(n, n / 2));
 }
 
 /**
- * _sqrt_test - funciton to print strings
+ * prim - funciton to print strings
  *
  * Description: no more words to say
- * @a: the reference number.
+ * @n: the reference number.
  * @i: just the base
  *
  * Return: as i declared in the code
  */
 
-int _sqrt_test(int n, int i)
+int prim(int n, int i)
 {
-	int x = i * i;
+	if (n < 2)
+		return (0);
 
-	if (x == n)
-		return (i);
+	else if (i == 1)
+		return (1);
 
-	else if (x < n)
-		return (_sqrt_test(n, ++i));
+	else if (n % i == 0)
+		return (0);
 
 	else
-		return (-1);
-
+		return (prim(n, --i));
 }
