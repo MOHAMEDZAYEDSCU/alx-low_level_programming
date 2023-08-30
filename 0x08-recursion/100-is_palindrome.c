@@ -30,7 +30,7 @@ int is_palindrome(char *s)
 int pali(char *s_begin, char *s_end)
 {
 	if (s_begin >= s_end && *s_begin == *s_end)
-                return (1);
+		return (1);
 
 	else if (*s_begin != *s_end)
 		return (0);
