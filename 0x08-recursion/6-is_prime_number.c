@@ -18,7 +18,7 @@ int _sqrt_recursion(int n)
  * _sqrt_test - funciton to print strings
  *
  * Description: no more words to say
- * @n: the reference number.
+ * @a: the reference number.
  * @i: just the base
  *
  * Return: as i declared in the code
