@@ -8,7 +8,6 @@
  *
  * Return: no return for void function.
  */
-int prim(int n, int i);
 
 int is_prime_number(int n)
 {
