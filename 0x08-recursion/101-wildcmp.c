@@ -14,7 +14,7 @@ int wildcmp(char *s1, char *s2)
 {
 	int ret = 0;
 
-	if (!*s1 && *s2 == '*' && !*move_past_star(s2))
+	if (!*s1 && *s2 == '*' && !*move_str(s2))
 		return (1);
 
 	else if (*s1 == *s2)
@@ -31,11 +31,15 @@ int wildcmp(char *s1, char *s2)
 	if (*s2 == '*')
 	{
 		s2 = move_str(s2);
+
 		if (!*s2)
 			return (1);
+
 		else if (*s1 == *s2)
-			ret += wildcmp(inception(s1 + 1, s2 + 1));
+			ret += wildcmp(s1 + 1, s2 + 1);
+
 		ret += inception(s1, s2);
+
 		return (!!ret);
 	}
 	return (0);

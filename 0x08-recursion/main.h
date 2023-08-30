@@ -19,5 +19,7 @@ int prim(int n, int i);
 int is_palindrome(char *s);
 int pali(char *s_begin, char *s_end);
 int wildcmp(char *s1, char *s2);
+int *move_str(char *s2);
+int inception(int *s1, int *s2);
 
 #endif /* MAIN_H */
