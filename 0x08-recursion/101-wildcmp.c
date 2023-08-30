@@ -54,7 +54,7 @@ int wildcmp(char *s1, char *s2)
  * Return: as i declared in the code
  */
 
-int *move_str(char *s2)
+char *move_str(char *s2)
 {
 	if (*s2 == '*')
 		return (move_str(s2 + 1));
@@ -79,6 +79,8 @@ int inception(char *s1, char *s2)
 		return (0);
 	if (*s1 == *s2)
 		ret += wildcmp(s1 + 1, s2 + 1);
+
 	ret += inception(s1 + 1, s2);
+
 	return (ret);
 }
