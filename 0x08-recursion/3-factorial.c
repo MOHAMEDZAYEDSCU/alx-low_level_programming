@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int factorial(int n) - funciton to print strings
+ * factorial - funciton to print strings
  *
  * Description: no more words to say
  * @n: the reference number
