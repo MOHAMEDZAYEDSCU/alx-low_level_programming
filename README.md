@@ -1,1 +1,2 @@
-<img src="https://www.alxafrica.com/wp-content/uploads/2023/01/7_Do-hard-things-100.jpg" alt="Another Sample Image">
+<p align="center"> <img src ="https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png"> </p> 
+<h1 align="center"> C is FUN </h1>
