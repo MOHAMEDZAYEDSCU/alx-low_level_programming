@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	int i, add = 0;
 
 	if (argc == 1)
-		return(0);
+		return (0);
 
 	for (i = 0 ; i < argc ; i++)
 	{
@@ -26,6 +26,6 @@ int main(int argc, char *argv[])
 		}
 		add += atoi(argv[i]);
 	}
-	
+
 	return (add);
 }
