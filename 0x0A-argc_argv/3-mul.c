@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
 	else
 	{
 		long int x = atoi(argv[1]) * atoi(argv[2]);
+
 		printf("%ld\n", x);
 	}
 	return (0);
