@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for ((i=1; i<=60; i++))
+for ((i=1; i<=10; i++))
 do
     echo "Performing iteration No. $i"
     
