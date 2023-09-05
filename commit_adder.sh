@@ -2,7 +2,7 @@
 
 read -p "Enter No. of commits: " commit_number
 
-for ((i = 1 ; i <= $commit_nubmer ; i++))
+for ((i = 1 ; i <= $commit_number ; i++))
 do
     echo "Performing iteration No. $i"
     
