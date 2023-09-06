@@ -1,1 +1,1 @@
-<h1 align="center"> ::fire:: Recursion -_- </h1>
+<h1 align="center"> :fire: Recursion -_- </h1>
