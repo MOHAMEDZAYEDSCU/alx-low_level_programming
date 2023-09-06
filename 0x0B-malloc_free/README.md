@@ -1,1 +1,2 @@
-##Dynamic allocation
+##Manual allocation
+
