@@ -10,11 +10,20 @@
  *
  * Description: alot of dogs.
  */
+
 struct dog
 {
 	char *name;
 	char *owner;
 	float age;
 };
+
+/***************************************************
+ *
+ * it is section for prototypes...
+ *
+ ***************************************************/
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
 
 #endif
