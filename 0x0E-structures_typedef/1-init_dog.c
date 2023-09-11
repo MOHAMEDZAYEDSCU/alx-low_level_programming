@@ -3,7 +3,7 @@
 /**
  * init_dog - get the data of dogs
  *
- * @*d: pointer to element to the structure
+ * @d: pointer to element to the structure
  * @name: poiner to the name of the dog
  * @age: the dog's age
  * @owner: the owner name.
