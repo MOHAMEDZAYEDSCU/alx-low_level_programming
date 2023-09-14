@@ -1,6 +1,10 @@
 #ifndef VAR_FUN_H
 #define VAR_FUN_H
 
+#include <stdio.h>
+#include <stdarg.h>
+#include <string.h>
+
 /**
  * struct print - struct for printing different types
  * @param: format specifier
