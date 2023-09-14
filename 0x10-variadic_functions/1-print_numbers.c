@@ -18,8 +18,10 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	va_start(ptr, n);
 
-	if (!n)
-		va_end(ptr);
+	/**
+	* if (!n)
+	* va_end(ptr);
+	*/
 
 	else
 	{
