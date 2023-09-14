@@ -25,7 +25,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			word = va_arg(ptr, char*);
 
 			if (*word == '\0')
-				printf("nil");
+				printf("(nil)");
 
 			else
 				printf("%s", word);
